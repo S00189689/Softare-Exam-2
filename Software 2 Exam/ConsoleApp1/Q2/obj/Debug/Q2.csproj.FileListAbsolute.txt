@@ -1,0 +1,7 @@
+H:\Software 2 Exam\ConsoleApp1\Q2\obj\Debug\Q2.csprojAssemblyReference.cache
+H:\Software 2 Exam\ConsoleApp1\Q2\obj\Debug\Q2.csproj.CoreCompileInputs.cache
+H:\Software 2 Exam\ConsoleApp1\Q2\bin\Debug\Q2.exe.config
+H:\Software 2 Exam\ConsoleApp1\Q2\bin\Debug\Q2.exe
+H:\Software 2 Exam\ConsoleApp1\Q2\bin\Debug\Q2.pdb
+H:\Software 2 Exam\ConsoleApp1\Q2\obj\Debug\Q2.exe
+H:\Software 2 Exam\ConsoleApp1\Q2\obj\Debug\Q2.pdb
