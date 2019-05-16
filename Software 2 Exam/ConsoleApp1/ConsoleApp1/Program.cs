@@ -87,8 +87,9 @@ namespace ConsoleApp1
 
                 int tickets = int.Parse(field_Arrary[2]);
 
-                
 
+
+              
 
                 if (Ticket_type == "Basic")
                 {
@@ -97,7 +98,7 @@ namespace ConsoleApp1
 
                 }
 
-                else if (Ticket_type == "Supe")
+                else if (Ticket_type == "Super")
                 {
                     tickets += s ;
                 }
@@ -119,11 +120,11 @@ namespace ConsoleApp1
 
 
 
+
+
+
+
                 line_In = sr.ReadLine();
-
-
-                
-              
 
             }// end of the while loop
 
