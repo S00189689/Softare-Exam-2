@@ -8,10 +8,13 @@ namespace Q2
 {
     class Bike
     {
+        // privats varables
         private string _bike_brand;
         private int _frame_number;
         private Double _Price;
 
+
+        // get and sets 
         public string Bike_brand
         {
             get { return _bike_brand; }
@@ -31,6 +34,8 @@ namespace Q2
         }
 
 
+
+        // to cal desbotit
         public virtual string CalcDeposit ()
         {
             double d;
@@ -44,6 +49,8 @@ namespace Q2
 
         }
 
+
+        // constuctor
         public Bike (string B,int F,Double P)
         {
             Bike_brand = B;
@@ -52,7 +59,7 @@ namespace Q2
 
         }
 
-
+        // to returne the bike infomation
         public override string ToString()
         {
             return "The Brand" + Bike_brand + " the frame Number is " + Frame_Number + " the price is " + Price;

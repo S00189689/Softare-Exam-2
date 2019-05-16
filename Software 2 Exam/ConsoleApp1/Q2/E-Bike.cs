@@ -10,6 +10,7 @@ namespace Q2
     {
         private int _power;
 
+        // Get and set for the power
         public int Power
         {
             get { return _power; }
@@ -22,12 +23,14 @@ namespace Q2
 
         }
 
+        // Constuctor for the E bike 
         public E_Bike (string B, int F, Double P,int PO) : base(B,F,P)
         {
             Power = PO;
 
         }
 
+        // to override the CalcDeposit in the bike class
         public override string CalcDeposit()
         {
             double d;
@@ -36,7 +39,7 @@ namespace Q2
 
         }
 
-
+        // to overide th ToString in the Bike Class and add the power 
         public override string ToString()
         {
             return base.ToString() + "the power is " + Power;

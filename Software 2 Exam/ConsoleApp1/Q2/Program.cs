@@ -29,7 +29,7 @@ namespace Q2
                 Console.WriteLine(NewBike[i].ToString());
                 Console.WriteLine(NewBike[i].CalcDeposit());
                 Console.WriteLine();
-            }
+            }// end of the for loop
 
         }
     }
